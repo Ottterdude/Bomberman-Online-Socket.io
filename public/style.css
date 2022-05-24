@@ -1,0 +1,33 @@
+button {
+  margin-left: 1000px;
+}
+
+#stage {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+}
+
+#stage2 {
+  z-index: -2;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+#stage3 {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+/*.canvas {
+    background-size: 64px 64px;
+    background-image:
+      linear-gradient(to right, grey 1px, transparent 1px),
+      linear-gradient(to bottom, grey 1px, transparent 1px),
+      linear-gradient(to left, grey 1px, transparent 1px),
+      linear-gradient(to top, grey 1px, transparent 1px);
+  }
